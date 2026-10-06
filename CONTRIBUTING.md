@@ -10,6 +10,6 @@ Small, focused improvements are welcome. Preserve these workflow properties:
 
 Run the checks listed in README. Describe what changed, why, and which checks passed. Site extraction failures may belong to yt-dlp; first confirm the upstream version and whether direct yt-dlp reproduces the issue. Do not promise unsupported platforms without validation.
 
-Never commit Cookie files, personal configurations, tokens, private logs, signed URLs, downloaded media or dependency EXEs. Review the complete diff and tracked-file list. AI-assisted contributions are welcome when reviewed, tested and accurately described.
+Never commit Cookie files, personal configurations, tokens, private logs, signed URLs, downloaded media or dependency EXEs. Review the complete diff and tracked-file list before submitting changes.
 
-欢迎针对具体问题的小改进。请保留匿名优先、源音频/ALAC 规则、完整验证、失败可恢复以及 PowerShell 5.1 兼容性。提交时写清用途与验证；不要附带 Cookie、账号资料、私密日志、媒体或第三方 EXE。AI 辅助开发可以参与，但仍需检查、测试并准确说明。
+欢迎针对具体问题的小改进。请保留匿名优先、源音频/ALAC 规则、完整验证、失败可恢复以及 PowerShell 5.1 兼容性。提交时写清用途与验证；不要附带 Cookie、账号资料、私密日志、媒体或第三方 EXE。

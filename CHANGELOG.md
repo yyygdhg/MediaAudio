@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 — 2026-10-06
+## 0.1.0 — 2026-10-07
 
 First public release / 首个公开版本。
 

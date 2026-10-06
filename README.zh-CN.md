@@ -112,10 +112,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Test-Repair.ps1
 
 ## 项目与致谢
 
-由 **[Liminal / yyygdhg](https://github.com/yyygdhg)** 主导并维护，使用 AI 辅助开发。需求取舍、输出检查和兼容性限制均保留说明，方便检查与继续改进。
+作者与维护者：**[Liminal / yyygdhg](https://github.com/yyygdhg)**。
 
 项目脚本、文档及原创图像使用 **[MIT](LICENSE)**。第三方工具保留各自许可证；Windows yt-dlp EXE 和所选 FFmpeg 构建涉及 GPL 要求。v0.1.0 的公开包不再分发它们的二进制文件。自行制作完整捆绑包前请阅读 **[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)**。
 
 仅用于你有权保存的媒体，并遵守适用法律和来源网站条款。
-
-<p align="center">一个小工具，把使用流程和验证结果说明白。</p>

@@ -112,10 +112,8 @@ Tests generate synthetic audio locally; no downloaded music is committed. Live s
 
 ## Project and credits
 
-Created and maintained by **[Liminal / yyygdhg](https://github.com/yyygdhg)** with AI-assisted development. The product decisions, output guarantees and compatibility limits are documented so the project can be inspected and improved.
+Created and maintained by **[Liminal / yyygdhg](https://github.com/yyygdhg)**.
 
 Project scripts, documentation and original artwork are under **[MIT](LICENSE)**. Third-party tools retain their own licenses; the Windows yt-dlp executable and the selected FFmpeg build include GPL obligations. The v0.1.0 publication avoids redistributing their binaries. Read **[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)** before making your own all-in-one bundle.
 
 Use the tool only for media you are authorized to save, consistent with applicable law and the source site's terms.
-
-<p align="center">A small workflow, with clear decisions and verifiable results.</p>
