@@ -1,0 +1,144 @@
+{
+  "Version": "0.1.0",
+  "VerifiedDate": "2026-10-06",
+  "Environment": "Windows x64, built-in PowerShell 5.1",
+  "Passed": 29,
+  "Failed": 0,
+  "FirstTimeUpstreamSetupPassed": true,
+  "Checks": [
+    {
+      "Test": "Pinned lock specifies three upstream packages and hashes",
+      "Passed": true
+    },
+    {
+      "Test": "Download rejects non-HTTPS, unapproved hosts and embedded credentials",
+      "Passed": true
+    },
+    {
+      "Test": "Dependency target paths cannot escape their parent",
+      "Passed": true
+    },
+    {
+      "Test": "Corrupt download is refused before installation",
+      "Passed": true
+    },
+    {
+      "Test": "ZIP selects exact entries and refuses escaping output paths",
+      "Passed": true
+    },
+    {
+      "Test": "A prepared portable folder performs no setup or downloads",
+      "Passed": true
+    },
+    {
+      "Test": "Login/cookie instructions remain visible",
+      "Passed": true
+    },
+    {
+      "Test": "Actual credentials and signed URLs stay redacted",
+      "Passed": true
+    },
+    {
+      "Test": "Official checksum accepts PowerShell byte-array response",
+      "Passed": true
+    },
+    {
+      "Test": "Wrong hash rejected; installed executable unchanged",
+      "Passed": true
+    },
+    {
+      "Test": "Recent verified update skips repeated API requests",
+      "Passed": true
+    },
+    {
+      "Test": "Current configured cookies remain opt-in",
+      "Passed": true
+    },
+    {
+      "Test": "Explicit local Cookie file takes precedence without browser access",
+      "Passed": true
+    },
+    {
+      "Test": "Anonymous requests ignore missing cookie file; login retry is selective",
+      "Passed": true
+    },
+    {
+      "Test": "Metadata retries authorized authentication only when needed",
+      "Passed": true
+    },
+    {
+      "Test": "Dependency executables",
+      "Passed": true
+    },
+    {
+      "Test": "Restore config after deletion; preserve defaults",
+      "Passed": true
+    },
+    {
+      "Test": "Config rejects invalid mode and boolean",
+      "Passed": true
+    },
+    {
+      "Test": "Cookie opt-in and log privacy",
+      "Passed": true
+    },
+    {
+      "Test": "Filename safety; Unicode; native argument quoting",
+      "Passed": true
+    },
+    {
+      "Test": "Generate 48000 Hz stereo and 44100 Hz mono fixtures",
+      "Passed": true
+    },
+    {
+      "Test": "original conversion stereo48; Unicode output; collision safety",
+      "Passed": true
+    },
+    {
+      "Test": "alac conversion stereo48; Unicode output; collision safety",
+      "Passed": true
+    },
+    {
+      "Test": "original conversion mono44; Unicode output; collision safety",
+      "Passed": true
+    },
+    {
+      "Test": "alac conversion mono44; Unicode output; collision safety",
+      "Passed": true
+    },
+    {
+      "Test": "Combined audio/video fallback preserves original codec",
+      "Passed": true
+    },
+    {
+      "Test": "Failed verification retains downloaded source",
+      "Passed": true
+    },
+    {
+      "Test": "Reject sample rate/channel mismatch and corrupt output",
+      "Passed": true
+    },
+    {
+      "Test": "BAT entry processes invalid URL without unhandled exception",
+      "Passed": true
+    }
+  ],
+  "LiveMetadataChecks": [
+    {
+      "Site": "YouTube",
+      "Passed": true,
+      "Scope": "metadata only",
+      "CookiesUsed": false,
+      "Format": "251",
+      "Codec": "opus"
+    },
+    {
+      "Site": "Bilibili",
+      "Passed": true,
+      "Scope": "metadata only",
+      "CookiesUsed": false,
+      "Format": "30232",
+      "Codec": "mp4a.40.2"
+    }
+  ]
+}

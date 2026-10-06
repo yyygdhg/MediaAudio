@@ -1,0 +1,18 @@
+MediaAudio v0.1.0 / Windows x64
+
+1. Extract the whole ZIP / 完整解压 ZIP。
+2. Double-click MediaAudio.bat / 双击 MediaAudio.bat。
+3. First launch downloads and verifies upstream dependencies (internet required).
+   首次启动需要联网，自动下载并校验上游依赖，无需安装到系统。
+4. Paste a video URL. Default output: ALAC .m4a on your Desktop.
+   粘贴视频链接；默认在桌面保存 ALAC .m4a。
+5. Set output_mode=original in config.ini to preserve source audio.
+   要保留原始音轨，在 config.ini 中设 output_mode=original。
+
+English: README.md
+中文：README.zh-CN.md
+Cookie / verification problems: docs/FAQ.md or docs/FAQ.zh-CN.md
+Dependencies and licenses: THIRD_PARTY_NOTICES.md
+
+Cookie is optional. Do not upload Cookie contents or your personal logs.
+Cookie 是可选项。不要上传 Cookie 内容或未经检查的个人日志。

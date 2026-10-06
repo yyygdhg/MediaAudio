@@ -1,0 +1,29 @@
+name: Windows validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  local-regression:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare pinned upstream dependencies
+        shell: powershell
+        run: .\scripts\Setup-Dependencies.ps1 -NoPause
+      - name: Dependency integrity and path checks
+        shell: powershell
+        run: .\tests\Test-Dependencies.ps1
+      - name: Synthetic audio workflow checks
+        shell: powershell
+        run: .\scripts\Test-MediaAudio.ps1
+      - name: Authentication, logging and update recovery checks
+        shell: powershell
+        run: .\scripts\Test-Repair.ps1

@@ -1,0 +1,19 @@
+# Local runtime, sessions and media must never be published.
+bin/*
+!bin/README.md
+logs/
+cookies/
+config.ini
+*cookies*.txt
+**/*cookies*.txt
+.MediaAudio-work/
+*.part
+*.webm
+*.m4a
+*.mp3
+*.wav
+*.flac
+dist/
+*.zip
+Thumbs.db
+.DS_Store

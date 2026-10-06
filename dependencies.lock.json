@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "platform": "windows-x64",
+  "packages": [
+    {
+      "name": "yt-dlp", "version": "2026.08.19", "format": "file",
+      "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.08.19/yt-dlp.exe",
+      "sha256": "66674953FE251B89F4D08C5F0E35E0728679BD67AB3D7D05C0562AF101DD3E7A",
+      "files": [{"entry": "", "destination": "yt-dlp.exe"}],
+      "notices": [
+        {"url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.08.19/LICENSE", "sha256": "7E12E5DF4BAE12CB21581BA157CED20E1986A0508DD10D0E8A4AB9A4CF94E85C", "destination": "licenses/yt-dlp-LICENSE.txt"},
+        {"url": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.08.19/THIRD_PARTY_LICENSES.txt", "sha256": "472AEFE951C7DB35E1657C1D13FD337140511ED6F2B329205105AD441C5A02B7", "destination": "licenses/yt-dlp-THIRD_PARTY_LICENSES.txt"}
+      ]
+    },
+    {
+      "name": "ffmpeg", "version": "9.0.2", "format": "zip",
+      "url": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-essentials_build.zip",
+      "sha256": "60F467265B1E312373DBCD92200C2618A74850F98D3D078E94296BB3FA2047BA",
+      "files": [
+        {"entry": "ffmpeg-9.0.2-essentials_build/bin/ffmpeg.exe", "destination": "ffmpeg.exe"},
+        {"entry": "ffmpeg-9.0.2-essentials_build/bin/ffprobe.exe", "destination": "ffprobe.exe"},
+        {"entry": "ffmpeg-9.0.2-essentials_build/LICENSE", "destination": "licenses/FFmpeg-LICENSE.txt"},
+        {"entry": "ffmpeg-9.0.2-essentials_build/README.txt", "destination": "licenses/FFmpeg-build-README.txt"}
+      ], "notices": []
+    },
+    {
+      "name": "node", "version": "24.19.0", "format": "zip",
+      "url": "https://nodejs.org/dist/v24.19.0/node-v24.19.0-win-x64.zip",
+      "sha256": "57F71AB3652E797D84ACDDC79C81CC9FF1C6DDB2A1974CDB83F00FEE9BFF4C73",
+      "files": [
+        {"entry": "node-v24.19.0-win-x64/node.exe", "destination": "node.exe"},
+        {"entry": "node-v24.19.0-win-x64/LICENSE", "destination": "licenses/Node-LICENSE.txt"}
+      ], "notices": []
+    }
+  ]
+}

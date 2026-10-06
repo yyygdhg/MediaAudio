@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">MediaAudio</title>
+  <desc id="desc">A portable Windows audio workflow: original source or ALAC, with verified output.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1221"/><stop offset="1" stop-color="#192a40"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38c9a4"/><stop offset="1" stop-color="#9de3c6"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8ba3bd" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1200" height="380" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="22" fill="url(#grid)"/>
+  <circle cx="1080" cy="55" r="215" fill="#38c9a4" opacity=".035"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="64" y="66" fill="#38c9a4" font-size="13" font-weight="700" letter-spacing="3">PORTABLE AUDIO WORKFLOW</text>
+    <text x="60" y="150" fill="#f4f7fa" font-size="72" font-weight="700" letter-spacing="-3">MediaAudio</text>
+    <text x="64" y="196" fill="#b4c4d4" font-size="24">Keep the source. Verify the output.</text>
+    <rect x="64" y="230" width="106" height="30" rx="15" fill="#23384b"/><text x="85" y="250" fill="#d4e1ec" font-size="12">Windows x64</text>
+    <rect x="180" y="230" width="123" height="30" rx="15" fill="#23384b"/><text x="200" y="250" fill="#d4e1ec" font-size="12">PowerShell 5.1</text>
+    <text x="64" y="325" fill="#7e95aa" font-size="13">ANONYMOUS FIRST · LOCAL PROCESSING · EDITABLE SCRIPTS</text>
+  </g>
+  <g transform="translate(790 80)" fill="url(#accent)">
+    <rect x="0" y="68" width="8" height="40" rx="4"/><rect x="20" y="52" width="8" height="72" rx="4"/>
+    <rect x="40" y="32" width="8" height="112" rx="4"/><rect x="60" y="60" width="8" height="56" rx="4"/>
+    <rect x="80" y="16" width="8" height="144" rx="4"/><rect x="100" y="40" width="8" height="96" rx="4"/>
+    <rect x="120" y="0" width="8" height="176" rx="4"/><rect x="140" y="24" width="8" height="128" rx="4"/>
+    <rect x="160" y="52" width="8" height="72" rx="4"/><rect x="180" y="30" width="8" height="116" rx="4"/>
+    <rect x="200" y="58" width="8" height="60" rx="4"/><rect x="220" y="46" width="8" height="84" rx="4"/>
+    <rect x="240" y="72" width="8" height="32" rx="4"/>
+  </g>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">
+    <rect x="763" y="285" width="135" height="40" rx="10" fill="#203744" stroke="#38c9a4" stroke-opacity=".45"/>
+    <text x="789" y="310" fill="#9de3c6">ORIGINAL</text>
+    <text x="914" y="309" fill="#7e95aa">/</text>
+    <rect x="944" y="285" width="130" height="40" rx="10" fill="#28354a" stroke="#839ebb" stroke-opacity=".4"/>
+    <text x="987" y="310" fill="#d9e6f3">ALAC</text>
+  </g>
+</svg>
